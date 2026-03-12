@@ -78,7 +78,7 @@ resource "aws_security_group" "webSg" {
 
 # Creating S3 Bucket
 resource "aws_s3_bucket" "example" {
-  bucket = "terraform-s3-test-reya-project"
+  bucket = "terraform-s3-test-reya-project-nk3008"
 }
 
 # Creating Ec2-instance with the VPC
