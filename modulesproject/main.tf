@@ -13,7 +13,7 @@ module "vpc" {
 module "ec2" {
   source        = "./modules/ec2-instances"
   ami           = "ami-02ddb77f8f93ca4ca"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   subnet_id     = module.vpc.vpc_id
   instance_name = "Web-Server"
 }
