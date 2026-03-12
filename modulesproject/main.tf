@@ -21,7 +21,7 @@ module "ec2" {
 # Create S3 Bucket
 module "s3" {
   source      = "./modules/s3-bucket"
-  bucket_name = "my-awesome-bucket-reya"
+  bucket_name = "my-awesome-bucket-reyaz-nk3008"
   acl         = "private"
 }
 
